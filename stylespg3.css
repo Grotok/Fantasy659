@@ -70,6 +70,17 @@ p {
     background-color: black;
 }
 
+.fa-arrow-left {
+    color: antiquewhite;
+    position: absolute;
+    left: 2em;
+    bottom: 2em;
+}
+
+.fa-arrow-left:hover {
+    cursor: pointer;
+}
+
 @media screen  {
     
 }
