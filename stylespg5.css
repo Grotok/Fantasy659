@@ -22,10 +22,10 @@ p {
     
     background-color: white;
     display: grid;
-    grid-template-areas: 'panel1 panel1 panel1 panel1 panel1 panel1'
-                         'panel1 panel1 panel1 panel1 panel1 panel1'
-                         'panel1 panel1 panel1 panel1 panel1 panel1'
-                         'panel1 panel1 panel1 panel1 panel1 panel1';
+    grid-template-areas: 'panel1 panel1 panel1 panel2 panel2 panel2'
+                         'panel1 panel1 panel1 panel2 panel2 panel2'
+                         'panel3 panel3 panel3 panel3 panel4 panel4'
+                         'panel3 panel3 panel3 panel3 panel4 panel4';
    
    
 }
@@ -70,17 +70,6 @@ p {
     background-color: black;
 }
 
-.fa-arrow-left {
-    color: antiquewhite;
-    position: absolute;
-    left: 2em;
-    bottom: 2em;
-}
-
-.fa-arrow-left:hover {
-    cursor: pointer;
-}
-
 .fa-arrow-right {
     color: antiquewhite;
     position: absolute;
@@ -89,6 +78,17 @@ p {
 }
 
 .fa-arrow-right:hover {
+    cursor: pointer;
+}
+
+.fa-arrow-left {
+    color: antiquewhite;
+    position: absolute;
+    left: 2em;
+    bottom: 2em;
+}
+
+.fa-arrow-left:hover {
     cursor: pointer;
 }
 
