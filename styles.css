@@ -15,6 +15,7 @@ body {
 
 p {
     color: antiquewhite;
+    margin: 1em 1em;
 }
 
 .motherbox {
@@ -37,8 +38,12 @@ p {
     justify-content: center;
     align-items: center;
     border: 3px solid white;
-    
-    background-color: black;
+    text-shadow: 2px 2px 2px black;
+
+    background-image: url(./pics/Comic1\ copy.jpg);
+    background-size: 800px 330px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .panel2 {
@@ -64,10 +69,14 @@ p {
 .panel4 {
     grid-area: panel4;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:flex-start;
+    align-items:flex-start;
     border: 3px solid white;
-    background-color: black;
+    background-image: url(./pics/THrowOrb.jpg);
+    background-size: contain;
+    background-position: center;
+    text-shadow: 2px 2px 2px black;
+
 }
 
 .fa-arrow-right {

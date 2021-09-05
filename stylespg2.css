@@ -22,10 +22,10 @@ p {
     
     background-color: white;
     display: grid;
-    grid-template-areas: 'panel1 panel1 panel2 panel2 panel2 panel2'
-                         'panel1 panel1 panel2 panel2 panel2 panel2'
-                         'panel1 panel1 panel3 panel3 panel3 panel3'
-                         'panel1 panel1 panel3 panel3 panel3 panel3';
+    grid-template-areas: 'panel1 panel1 panel1 panel2 panel2 panel2'
+                         'panel1 panel1 panel1 panel2 panel2 panel2'
+                         'panel1 panel1 panel1 panel3 panel3 panel3'
+                         'panel1 panel1 panel1 panel3 panel3 panel3';
    
    
 }
@@ -37,8 +37,12 @@ p {
     justify-content: center;
     align-items: center;
     border: 3px solid white;
-    
+    background-size: 800px 750px ;
+    background-image: url(./pics/WraithForest\ copy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: black;
+    text-shadow: 2px 2px 2px black;
 }
 
 .panel2 {
